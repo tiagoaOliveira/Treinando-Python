@@ -39,4 +39,4 @@ def conta(formula):
         elif valores[3] == '/':
             print(f'D = {float(V) * float(T)}')
 
-conta(input('Digite a fórmula').upper())
+conta(input('Digite a fórmula: ').upper())
